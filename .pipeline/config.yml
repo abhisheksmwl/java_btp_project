@@ -13,7 +13,7 @@ stages:
   Acceptance:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-    cfOrg: "35ddca8ctrial"
+    cfOrg: "33ca3a05trial"
     cfSpace: "dev"
     cfAppName: "product-service"
     cfCredentialsId: "deploy-to-cf"
@@ -24,7 +24,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-    cfOrg: "35ddca8ctrial"
+    cfOrg: "33ca3a05trial"
     cfSpace: "dev"
     cfAppName: "product-service"
     cfCredentialsId: "deploy-to-cf"
