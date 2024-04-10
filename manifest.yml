@@ -9,5 +9,5 @@ applications:
   buildpacks:
     - sap_java_buildpack_jakarta
   env:
-    JBP_CONFIG_SAPJVM_VERSION: '[17.0.0,SAP 17.0.0]'
-        
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 17.+ }"    
